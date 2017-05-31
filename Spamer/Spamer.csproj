@@ -54,7 +54,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Spamer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
