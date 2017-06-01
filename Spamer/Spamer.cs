@@ -2,6 +2,7 @@
 using EloBuddy;
 using EloBuddy.SDK.Events;
 
+
 namespace SPAM
 {
 
@@ -13,7 +14,8 @@ namespace SPAM
 
             Loading.OnLoadingComplete += OnLoadingComplete;
         }
-
+        
+    
         private static void OnLoadingComplete(EventArgs args)
         {
             Game.OnNotify += eventArgs =>
@@ -22,12 +24,12 @@ namespace SPAM
                 {
                     Chat.Say("/all ez");
                     Chat.Say("/masterybadge");
-                    
+
                 }
             };
             Game.OnNotify += EventArgs =>
             {
-                if (EventArgs.EventId.Equals(GameEventId.OnChampionDie) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen) 
+                if (EventArgs.EventId.Equals(GameEventId.OnChampionDie) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
                 {
 
                     Chat.Say("/all OMG LAG");
@@ -76,10 +78,33 @@ namespace SPAM
 
                 }
             };
-        }
+            Game.OnNotify += EventArgs =>
+            {
+                if (EventArgs.EventId.Equals(GameEventId.OnMinionsSpawn) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
+                {
+                    Chat.Say("/all CHARGE MY MINIONS!!!");
 
 
+
+                }
+            };
+            Game.OnNotify += EventArgs =>
+            {
+                if (EventArgs.EventId.Equals(GameEventId.OnFirstBlood) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
+                {
+                    Chat.Print("");
+
+                }
+            };
+
+
+
+
+
+
+         }
 
 
     }
 }
+
