@@ -10,3 +10,12 @@ C:\Users\Itsukai\Desktop\Spamer\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Itsukai\Desktop\Spamer\bin\Debug\EloBuddy.Sandbox.dll
 C:\Users\Itsukai\Desktop\Spamer\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\Itsukai\Desktop\Spamer\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\ConsoleApplication.exe
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\ConsoleApplication.pdb
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Debug\Spamer.csprojResolveAssemblyReference.cache
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Debug\ConsoleApplication.pdb
