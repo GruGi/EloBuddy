@@ -55,7 +55,26 @@ namespace SPAM
 
 
                 }
+            };
+            Game.OnNotify += EventArgs =>
+            {
+                if (EventArgs.EventId.Equals(GameEventId.OnKillDragon) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
+                {
+                    Chat.Say("Good Job");
 
+
+
+                }
+            };
+            Game.OnNotify += EventArgs =>
+            {
+                if (EventArgs.EventId.Equals(GameEventId.OnKillDragonSteal) && EventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
+                {
+                    Chat.Say("/all Report jungler ");
+
+
+
+                }
             };
         }
 
