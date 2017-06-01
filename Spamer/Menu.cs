@@ -1,35 +1,30 @@
-﻿using EloBuddy;
-using EloBuddy.SDK.Menu;
-using EloBuddy.SDK.Menu.Values;
+﻿using EloBuddy.SDK.Menu;
 
-namespace Spamer
+
+
+namespace SPAM
 {
-    internal class Menus
+    public static class MENU
     {
-        public static Menu FirstMenu;
-        
-        
+        private const string MenuName = "TEST";
 
-        public static void CreateMenu()
+        private static readonly Menu Menu;
+
+        static MENU()
         {
-         //
-            FirstMenu = MainMenu.AddMenu("Tilter" + Player.Instance.ChampionName, Player.Instance.ChampionName.ToLower() + "Events");
-            FirstMenu.AddGroupLabel("Addon by GruGi / Thanks for using it :)");
-            FirstMenu.AddLabel("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
-            FirstMenu.Add("MinionSpawn", new CheckBox("", true));
+            
+            Menu = MainMenu.AddMenu(MenuName, MenuName.ToLower());
+
+            Menu.AddGroupLabel("TEST");
+
+            Menu.AddLabel("TEST");
+
+            Menu.AddLabel("TEST");
 
 
-            FirstMenu.AddLabel("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
 
-            
-            
-         
-          
-            
-
-            
-        
-           
         }
+
     }
+
 }
