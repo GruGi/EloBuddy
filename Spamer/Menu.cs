@@ -7,18 +7,23 @@ namespace Spamer
     internal class Menus
     {
         public static Menu FirstMenu;
-        public static Menu EventsMenu;
+        
         
 
         public static void CreateMenu()
         {
          //
-            FirstMenu = MainMenu.AddMenu(Player.Instance.ChampionName, Player.Instance.ChampionName.ToLower() + "Events");
-           
-           
-         //
-            EventsMenu = FirstMenu.AddSubMenu("Events");
-          
+            FirstMenu = MainMenu.AddMenu("Tilter" + Player.Instance.ChampionName, Player.Instance.ChampionName.ToLower() + "Events");
+            FirstMenu.AddGroupLabel("Addon by GruGi / Thanks for using it :)");
+            FirstMenu.AddLabel("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+            FirstMenu.Add("MinionSpawn", new CheckBox("", true));
+
+
+            FirstMenu.AddLabel("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+
+            
+            
+         
           
             
 
