@@ -1,0 +1,12 @@
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\ConsoleApplication.exe.config
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\ConsoleApplication.exe
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\ConsoleApplication.pdb
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\EloBuddy.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\EloBuddy.SDK.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\SharpDX.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\Newtonsoft.Json.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Release\Spamer.csprojResolveAssemblyReference.cache
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Release\ConsoleApplication.exe
+C:\Users\Itsukai\Desktop\Spamer\EloBuddy\Spamer\obj\x86\Release\ConsoleApplication.pdb
