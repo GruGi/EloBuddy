@@ -10,31 +10,25 @@ namespace SPAM
     {
         static void Main(string[] args)
         {
-
             Loading.OnLoadingComplete += OnLoadingComplete;
         }
-        public static Menu EventsMenu;
+        public static Menu EventsMenu, SubEventsMenu;
         private static void OnLoadingComplete(EventArgs args)
         {
-            /////////////////////////////////////////////////////
-            Chat.Print("Spamer by Grugi");
-            Chat.Print("Version 0.0.0");
-            Chat.Print("Loaded Successfully");
-            /////////////////////////////////////////////////////
-
-            EventsMenu = MainMenu.AddMenu("test", "test");
-
-
-
-
-
-
-
-
-
-
-
-
+            EventsMenu = MainMenu.AddMenu("TEST", "TEST");
+            SubEventsMenu = EventsMenu.AddSubMenu("Events");
+        }
+        private static void Events()
+        { 
+            Game.OnNotify += eventArgs =>
+            {
+                if (eventArgs.EventId.Equals(GameEventId.OnGameStart) && eventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
+                {
+                    Chat.Print("Spamer by Grugi");
+                    Chat.Print("Version 0.0.0");
+                    Chat.Print("Loaded Successfully");
+                }
+            };
             Game.OnNotify += eventArgs =>
             {
                 if (eventArgs.EventId.Equals(GameEventId.OnChampionKill) && eventArgs.NetworkId == Player.Instance.NetworkId && !Chat.IsOpen && !Shop.IsOpen)
@@ -104,8 +98,13 @@ namespace SPAM
             };
 
         }
+       
+        
+          
+            
 
 
+            
     }
 }
 
